@@ -18,3 +18,6 @@ const _ = require("lodash");
 const items = [1, [2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+
+// When push to github, don't push node_modules folder, simply use gitignore
+// As long as you have the package.json, the person can npm install to download the node_modules himself.
