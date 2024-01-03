@@ -7,6 +7,7 @@
 // global dependency - use it in any project
 // npm install -g <packageName>
 // sudo install -g <packageName> (mac)
+// Used to use global install for the frontend library s.a. react or strapi, etc. But now from npm 5.2, we use npx
 
 // package.json - manifest file (stores important info about project/package)
 // manual approach (create package.json in the root, create properties, etc)
